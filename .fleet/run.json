@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Build",
+            "program": "cmake",
+            "args": ["--build", "$PROJECT_DIR$/build", "--target", "source"],
+        },
+        {
+            "type": "command",
+            "name": "Run",
+            "program": "$PROJECT_DIR$/build/source",
+        },
+    ]
+}
